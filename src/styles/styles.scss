@@ -8,11 +8,8 @@
     cursor: pointer;
 }
 
-.full-background {
-    background-color: $gray-800;
-    width: 100vw;
-    min-height: 100vh;
-    padding-bottom: 10rem;
+.page-background {
+    background-color: #263648;
 }
 
 #mainNav .btn {
@@ -23,8 +20,10 @@
 .astros-tipo {
     font-family: 'Caveat', cursive;
     font-size: 2rem;
+    color: #D0D9E9;
 }
 
 .header-image {
     padding: 0 0;
 }
+
