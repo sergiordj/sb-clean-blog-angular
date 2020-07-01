@@ -5,8 +5,8 @@
             <div class="col-lg-8 col-md-10 mx-auto">
                 <ng-container *ngIf="siteHeading; else postHeading"
                     ><div class="site-heading">
-                        <!-- <img class="header-image" src="assets/img/logo.jpg"> -->
-                        <h1>{{heading}}</h1>
+                        <img class="header-image" src="assets/img/logo.jpeg">
+                        <!--<h1 class="astros-tipo">Tus Astros de Luz{{heading}}</h1>-->
                         <span class="subheading">{{subHeading}}</span>
                     </div></ng-container
                 >
@@ -16,8 +16,9 @@
 </header>
 <ng-template #postHeading
     ><div class="post-heading">
-        <h1>{{heading}}</h1>
-        <h2 class="subheading">{{subHeading}}</h2>
+        <img class="header-image" src="assets/img/sagitario.jpg">
+        <h1 class="titulos-tipo">{{heading}}</h1>
+        <h2 class="subtitulos-tipo">{{subHeading}}</h2>
         <span class="meta">{{meta}}</span>
     </div>
 </ng-template>
