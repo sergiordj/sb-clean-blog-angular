@@ -25,12 +25,19 @@
 
 .titulos-tipo {
     color: #284161;
-    font-family: 'Lobster Two';
+    font-family: 'Comfortaa';
     font-size: 700;
+}
+
+.leyenda-tipo {
+    color: #D0D9E9;
+    font-family: 'Lobster Two', cursive;
+    font-size: 200;
 }
 
 .subtitulos-tipo {
     color: #D0D9E9;
+    margin-left: 16rem;
     font-family: 'Lobster Two', cursive;
     font-size: 300;
 }
@@ -41,6 +48,11 @@
     margin-left: 16rem;
     padding: 0px, 20px;
     text-align: justify;
+    font-family: 'Comfortaa';
+}
+
+.enlaces-header {
+    font-family: 'Comfortaa';
 }
 
 .header-image {
