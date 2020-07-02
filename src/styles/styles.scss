@@ -24,13 +24,16 @@
 }
 
 .titulos-tipo {
-    color: #284161;
+    color: #263648;
+    border-color: white;
+    text-shadow: -1px -1px 0px  #D0D9E9;
     font-family: 'Comfortaa';
     font-size: 700;
 }
 
 .leyenda-tipo {
     color: #D0D9E9;
+    text-shadow: -1px -1px 0px  #263648;
     font-family: 'Lobster Two', cursive;
     font-size: 200;
 }
@@ -51,14 +54,19 @@
     font-family: 'Comfortaa';
 }
 
+.footer-tipo {
+    font-family: 'Comfortaa';
+}
+
 .enlaces-header {
     font-family: 'Comfortaa';
 }
 
 .header-image {
-    margin: 20px, 20px, 20px, 20px;
-    height: 150px;
-    width: 150px;
+    margin: 20px, 20px, 60px, 20px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 200px;
     border-radius: 900px;
     overflow: hidden;
     text-align: center;
