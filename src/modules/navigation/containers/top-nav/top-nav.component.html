@@ -4,8 +4,8 @@
         <a class="navbar-brand astros-tipo" routerLink="/"></a><button class="navbar-toggler navbar-toggler-right" type="button" (click)="isMenuCollapsed = !isMenuCollapsed" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><fa-icon class="ml-1" [icon]='["fas", "bars"]'></fa-icon></button>
         <div class="collapse navbar-collapse" [ngbCollapse]="isMenuCollapsed">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/">Inicio</a></li>
-                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about">Sagitario</a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/"><b>Inicio</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Sagitario</b></a></li>
                 <li class="nav-item" *ngIf="isLoggedIn &amp;&amp; isOnPost"><a class="nav-link pointer" (click)="editPost()">Edit Post</a></li>
             </ul>
             <form class="form-inline ml-lg-2" *ngIf="isLoggedIn"><a class="btn btn-primary" routerLink="/new">New Post</a></form>
