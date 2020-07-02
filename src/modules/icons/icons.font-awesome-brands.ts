@@ -7,6 +7,7 @@ import {
     faGoogle,
     faMarkdown,
     faTwitter,
+    faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
 export const fontAwesomeBrandsIcons = {
@@ -16,4 +17,5 @@ export const fontAwesomeBrandsIcons = {
     faGoogle,
     faMarkdown,
     faTwitter,
+    faInstagram,
 };
