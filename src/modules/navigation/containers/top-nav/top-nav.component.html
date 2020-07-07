@@ -4,8 +4,19 @@
         <a class="navbar-brand astros-tipo" routerLink="/"></a><button class="navbar-toggler navbar-toggler-right" type="button" (click)="isMenuCollapsed = !isMenuCollapsed" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><fa-icon class="ml-1" [icon]='["fas", "bars"]'></fa-icon></button>
         <div class="collapse navbar-collapse" [ngbCollapse]="isMenuCollapsed">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/"><b>Inicio</b></a></li>
+                <!--<li class="nav-item enlaces-header"><a class="nav-link" routerLink="/"><b>Inicio</b></a></li>-->
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Cáncer</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Leo</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Virgo</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Libra</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Escorpio</b></a></li>
                 <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Sagitario</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Capricornio</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Acuario</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Piscis</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Aries</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Tauro</b></a></li>
+                <li class="nav-item enlaces-header"><a class="nav-link" routerLink="/about"><b>Géminis</b></a></li>
                 <li class="nav-item" *ngIf="isLoggedIn &amp;&amp; isOnPost"><a class="nav-link pointer" (click)="editPost()">Edit Post</a></li>
             </ul>
             <form class="form-inline ml-lg-2" *ngIf="isLoggedIn"><a class="btn btn-primary" routerLink="/new">New Post</a></form>
