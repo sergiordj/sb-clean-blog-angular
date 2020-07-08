@@ -40,7 +40,7 @@
 
 .subtitulos-tipo {
     color: #D0D9E9;
-    margin-left: 7vw;
+    margin-left: 2vw;
     font-family: 'Lobster Two', cursive;
     font-size: 3vw;
 }
@@ -73,25 +73,27 @@
 }
 
 .signos-home-image {
-    margin-left: 5vw;
     margin-top: 2vw;
+    margin-left: 2vw;
     height: 15vw;
     width: 15vw;
-    border-radius: 2vw;
+    border-radius: 5vw;
     overflow: hidden;
 }
 
-.bloque-de-iconos {
+.bloque-de-posts {
     //margin-left: 12rem;
-    list-style:none;
+    width: 90vw;
+    margin: 10vw;
 }
 
 .post-titulos {
     color: #D0D9E9;
     font-family: 'Lobster Two', cursive;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    width: 15vw;
     margin-top: 1vw;
-    margin-left: 4vw;
+    margin-left: 2vw;
     text-align: center;
 }
 
