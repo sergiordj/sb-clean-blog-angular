@@ -28,14 +28,20 @@
     border-color: white;
     text-shadow: -0.1vw -0.2vw 0.2px  #D0D9E9;
     font-family: 'Comfortaa';
-    font-size: 7vw;
+    font-size: 8vw;
+    @media only screen and (min-width: 768px) {
+        font-size: 5vw;
+      }
 }
 
 .leyenda-tipo {
     color: #D0D9E9;
     text-shadow: -0.1vw -0.2vw 0.2px  #263648;
     font-family: 'Lobster Two', cursive;
-    font-size: 3vw;
+    font-size: 4.5vw;
+    @media only screen and (min-width: 768px) {
+        font-size: 2.5vw;
+      }
 }
 
 .subtitulos-tipo {
@@ -65,11 +71,17 @@
 
 .header-image {
     margin: 1vw, 5vw, 1vw, 5vw;
-    height: 20vw;
-    width: 20vw;
-    border-radius: 20vw;
+    height: 35vw;
+    width: 35vw;
+    border-radius: 35vw;
     overflow: hidden;
     text-align: center;
+    @media only screen and (min-width: 768px) {
+        margin: 1vw, 5vw, 1vw, 5vw;
+        height: 20vw;
+        width: 20vw;
+        border-radius: 20vw;
+      }
 }
 
 .signos-home-image {
