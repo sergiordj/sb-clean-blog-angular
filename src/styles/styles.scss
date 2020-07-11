@@ -26,16 +26,16 @@
 .titulos-tipo {
     color: #263648;
     border-color: white;
-    text-shadow: -1px -1px 0px  #D0D9E9;
+    text-shadow: -0.1vw -0.2vw 0.2px  #D0D9E9;
     font-family: 'Comfortaa';
-    font-size: 700;
+    font-size: 7vw;
 }
 
 .leyenda-tipo {
     color: #D0D9E9;
-    text-shadow: -1px -1px 0px  #263648;
+    text-shadow: -0.1vw -0.2vw 0.2px  #263648;
     font-family: 'Lobster Two', cursive;
-    font-size: 200;
+    font-size: 3vw;
 }
 
 .subtitulos-tipo {
@@ -64,10 +64,10 @@
 }
 
 .header-image {
-    margin: 5px, 20px, 5px, 20px;
-    height: 200px;
-    width: 200px;
-    border-radius: 900px;
+    margin: 1vw, 5vw, 1vw, 5vw;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 20vw;
     overflow: hidden;
     text-align: center;
 }
