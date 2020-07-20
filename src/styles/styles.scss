@@ -9,7 +9,7 @@
 }
 
 .page-background {
-    background-color: #263648;
+    background-color: #D0D9E9;
 }
 
 #mainNav .btn {
@@ -24,9 +24,9 @@
 }
 
 .titulos-tipo {
-    color: #263648;
+    color: #D0D9E9;
     border-color: white;
-    text-shadow: -0.1vw -0.2vw 0.2px  #D0D9E9;
+    text-shadow: -0.1vw -0.2vw 0.2px  #263648;
     font-family: 'Comfortaa';
     font-size: 8vw;
     @media only screen and (min-width: 768px) {
@@ -45,7 +45,7 @@
 }
 
 .subtitulos-tipo {
-    color: #D0D9E9;
+    color: #263648;
     font-family: 'Lobster Two', cursive;
     font-size: 5vw;
     @media only screen and (min-width: 768px) {
@@ -58,8 +58,8 @@
     display: block;
     text-align: justify;
     font-size: 3vw;
-    color: #D0D9E9;
-    font-family: 'Comfortaa';
+    color: #284161;
+    font-family: 'Comic Neue', cursive;
     @media only screen and (min-width: 768px) {
         font-size: 2.3vw;
     }
@@ -67,10 +67,12 @@
 
 .footer-tipo {
     font-family: 'Comfortaa';
+    color: #284161;
 }
 
 .enlaces-header {
     font-family: 'Comfortaa';
+    color: #284161;
 }
 
 .header-image {
